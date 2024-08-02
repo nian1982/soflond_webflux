@@ -1,13 +1,14 @@
 package co.com.softlond.mongo.Plantilla;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import co.com.softlond.model.PlantillaModel;
 import co.com.softlond.model.gateways.PlantillaGateways;
 import reactor.core.publisher.Mono;
 
-@Repository
+// @Repository
+@Service
 public class PlantillaGatewaysImpl implements PlantillaGateways {    
 
     @Autowired
